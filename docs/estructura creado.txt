@@ -1,0 +1,12 @@
+experimentacion s4
+
+1- primero hay que crear la aplicacion con
+./s4 newApp -parentDir=´pwd´/apps
+
+2- despues entrar a la carpeta apps/nombre-app/src/main/java
+3- borrar los ejemplos de HelloWorld y crear dos carpetas
+APP y Adapter
+
+4- en la carpeta adapter se dejará el archivo adapter creado y en la carpeta APP se dejarán los archivos de PE creados y la App que crea los streams entre los PE (por medio de la ejecución de un archivo .jar que hace todo el este trabajo)
+
+5- luego se crearan los archivos de compilación app.sh y adapter.sh. (similares a una plantilla ya establecida)
